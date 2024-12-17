@@ -1,0 +1,124 @@
+#contact{
+    padding-bottom: 40px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: #1a1a1a;
+    color: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    max-width: 40rem;
+    margin: 2rem auto;
+}
+
+.contactPageTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #f4f4f4;
+}
+
+.contactDesc {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    color: #b3b3b3;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 35rem;
+}
+
+.name, .email, .msg {
+    font-size: 1rem;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    color: #f4f4f4;
+    border: 1px solid #3a3a3a;
+    border-radius: 0.5rem;
+    background: #2a2a2a;
+    transition: all 0.3s ease;
+}
+
+.name:focus, .email:focus, .msg:focus {
+    border-color: yellow; 
+    outline: none;
+    background: #333;
+}
+
+.msg {
+    height: 8rem;
+    resize: none; 
+}
+
+.submitBtn {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    padding: 0.75rem 2rem;
+    background: black;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitBtn:hover {
+    background: yellow; 
+    color: black;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.links img {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.links img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.loader {
+    margin: 1rem auto;
+    border: 6px solid #f3f3f3; 
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+}
+  
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+  
+.submitBtn:disabled {
+    background-color: #b3b3b3; 
+    cursor: not-allowed;
+}
+  

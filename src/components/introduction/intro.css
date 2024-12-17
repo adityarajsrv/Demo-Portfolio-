@@ -1,0 +1,53 @@
+.mainpage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    max-width: 85rem;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+.profile{
+    margin-top: 165px;
+    height: 722px;
+    width: 490px;
+}
+
+.intro{
+    margin-top: 250px;
+}
+
+.intro h3{
+    font-size: 40px;
+}
+
+.intro h1{
+    font-size: 80px;
+}
+
+.names{
+    color: yellow;
+}
+
+.intro p{
+    width: 75%;
+    font-size: 20px;
+    margin: 20px 0px 0px 10px;
+}
+
+.hire{
+    background: white;
+    margin: 20px 0px 0px 10px;
+    color: black;
+    border-radius: 25px;
+    width: 150px;
+}
+
+.hireImg{
+    color: black;
+    height: 20px;
+    padding-right: 20px;
+    margin-top: 5px;
+    font-size: 14px;
+}

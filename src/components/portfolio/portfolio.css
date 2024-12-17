@@ -1,0 +1,36 @@
+.portfolio{
+    margin: 50px 0px 30px 0px;
+    height: 100%;
+}
+
+.portfolio-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 75px 0px 0px 130px;;
+}
+
+.portfolio-container img{
+    height: 325px;
+    width: 325px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.portfolio h1{
+    font-size: 65px;
+    text-align: center;
+}
+
+.more{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    margin: 50px 0px 30px 720px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.more:hover{
+    scale: 1.1;
+}

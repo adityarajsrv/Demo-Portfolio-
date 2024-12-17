@@ -1,0 +1,19 @@
+.clients h1{
+    font-size: 65px;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.client-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.client-items img{
+    object-fit: cover;
+    width: 300px;
+}
